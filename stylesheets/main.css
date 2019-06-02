@@ -1,0 +1,43 @@
+body{
+  background-color: #202020;
+  margin: 0;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#logo{
+  color: white;
+  animation: colorchange 30s;
+  animation-iteration-count: infinite;
+  -webkit-animation: colorchange 30s;
+  -webkit-animation-iteration-count: infinite;
+  font-family: "Poiret One", sans-serif;
+  font-size: 60vmin;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+#logo:hover{
+  cursor: default;
+}
+@keyframes colorchange {
+  0%{color:white;}
+  20%{color:blueviolet;}
+  40%{color:crimson;}
+  60%{color:darkorange;}
+  80%{color:gold;}
+  100%{color:white;}
+}
+@-webkit-keyframes colorchange {
+  0%{color:white;}
+  20%{color:blueviolet;}
+  40%{color:crimson;}
+  60%{color:darkorange;}
+  80%{color:gold;}
+  100%{color:white;}
+}
