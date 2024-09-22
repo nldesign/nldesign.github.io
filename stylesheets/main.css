@@ -19,6 +19,8 @@ header{
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+  color: white;
+  font-size: 35vmin;
 }
 #logo:hover{
   cursor: default;
