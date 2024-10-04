@@ -20,8 +20,8 @@ header{
   font-variation-settings:
     "wdth" 100;
   color: white;
-  font-size: 35vmin;
+  font-size: 15vmin;
 }
-#logo:hover{
+.noto-sans-display-logo:hover{
   cursor: default;
 }
